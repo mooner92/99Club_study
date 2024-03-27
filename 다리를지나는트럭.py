@@ -36,3 +36,6 @@ def solution(bridge_length, weight, truck_weights):
             arr[-1] = truck_weights.pop(0)
             k += f
     return ans + bridge_length
+
+
+##
