@@ -12,3 +12,6 @@ def solution(storey):
             ans += n
         storey //= 10
     return ans
+
+
+###
