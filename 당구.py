@@ -24,3 +24,6 @@ def solution(m, n, startX, startY, balls):
 
         answer.append(res)
     return answer
+
+
+####
