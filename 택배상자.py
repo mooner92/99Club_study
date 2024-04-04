@@ -24,3 +24,22 @@ def solution(order):
         
     return answer
 """
+
+
+def solution(order):
+    stack = []
+    current = 1
+    result = 0
+
+    for o in order:
+        while current <= o:
+            stack.append(current)
+            current += 1
+
+        if stack[-1] == o:
+            stack.pop()
+            result += 1
+        else:
+            break
+
+    return result
