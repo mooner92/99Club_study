@@ -24,3 +24,5 @@ def solution(n, costs):
             answer += c  # 해당 다리의 비용을 결과에 추가
 
     return answer
+
+###
