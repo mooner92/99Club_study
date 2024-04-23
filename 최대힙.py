@@ -28,3 +28,5 @@ for i in range(a):
             print(heapq.heappop(max_heap) * -1)
     else:
         heapq.heappush(max_heap, -b)
+
+##
