@@ -13,4 +13,3 @@ def solution(n, k, enemy):
         else:
             n-=enemy[i]
     return answer
-##
